@@ -110,6 +110,21 @@ numbers
  Commit often. Have fun!
  
  */
+print("=========================== Human Code - Unsorted List ===============================")
+
 
 // Begin your implementation below...
+
+var cardValues : [Int] = []
+
+for _ in 1...20 {
+cardValues.append( random(between: 1, and: 50))
+}
+
+for i in 0..<cardValues.count {
+    print("Index is \(i) and the value is \(cardValues[i])")
+}
+
+print("=============================== Human Code - Sorted List ===============================")
+
 
