@@ -117,9 +117,13 @@ print("=========================== Human Code - Unsorted List ==================
 
 var cardValues : [Int] = []
 
-for _ in 1...20 {
-cardValues.append( random(between: 1, and: 50))
-}
+//for _ in 0...20 {
+//    cardValues.append( random(between: 1, and: 50))
+//}
+
+cardValues.append(9)
+cardValues.append(7)
+cardValues.append(5)
 
 for i in 0..<cardValues.count {
     print("Index is \(i) and the value is \(cardValues[i])")
@@ -127,4 +131,12 @@ for i in 0..<cardValues.count {
 
 print("=============================== Human Code - Sorted List ===============================")
 
-
+for i in 0..<cardValues.count {
+    
+    // Is card 1 greater than card 2?
+    if cardValues[i] > cardValues[i + 1] {
+        
+        // Values get swapped
+//        cardValues[i] = cardValues[i + 1] && cardValues[i + 1] = cardValues[i]
+    }
+}
