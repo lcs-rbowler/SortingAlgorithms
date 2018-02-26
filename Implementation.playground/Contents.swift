@@ -135,10 +135,6 @@ for _ in 0..<cardValues.count - 1 {
     for i in 0..<cardValues.count - 1 {
         
         // Is card 1 greater than card 2?
-        print("I")
-        print(i)
-        print("I+1")
-        print(i+1)
         if cardValues[i] > cardValues[i + 1] {
             
             // Values get swapped
@@ -149,4 +145,6 @@ for _ in 0..<cardValues.count - 1 {
         }
     }
 }
-cardValues
+
+print(cardValues)
+
