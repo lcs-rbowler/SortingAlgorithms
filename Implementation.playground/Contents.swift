@@ -117,13 +117,9 @@ print("=========================== Human Code - Unsorted List ==================
 
 var cardValues : [Int] = []
 
-//for _ in 0...20 {
-//    cardValues.append( random(between: 1, and: 50))
-//}
-
-cardValues.append(9)
-cardValues.append(7)
-cardValues.append(5)
+for _ in 0...20 {
+    cardValues.append( random(between: 1, and: 50))
+}
 
 for i in 0..<cardValues.count {
     print("Index is \(i) and the value is \(cardValues[i])")
@@ -146,5 +142,6 @@ for _ in 0..<cardValues.count - 1 {
     }
 }
 
-print(cardValues)
-
+for i in 0..<cardValues.count {
+    print("Index is \(i) and the value is \(cardValues[i])")
+}
